@@ -5,7 +5,6 @@
 hipoteses
 
 # Ignore todos os arquivos de texto
-*.txt
 
 # Ignore arquivos relacionados às chaves de API
 .env
