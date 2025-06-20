@@ -12,3 +12,7 @@ def drop_duplicados(dataframe: pd.DataFrame):
     """
     dataframe.drop_duplicates(inplace=True)
     return dataframe
+
+def limpa_dados_NAN(dataframe: pd.DataFrame):
+    dataframe.dropna(inplace=True)
+    return dataframe
